@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@500&display=swap');
+
+* {
+   font-family: 'Montserrat', sans-serif;
+   padding: 0;
+   margin: 0;
+
+}
+
+header {
+   position: fixed;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   gap: 40px;
+   height: 50px;
+   align-items: center;
+   background: white;
+   box-shadow: 0px 3px 10px rgb(121, 121, 121);
+
+   p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      font-size: 24px;
+   }
+
+   img {
+      width: 40px;
+      height: 40px;
+
+   }
+
+   a {
+      color: black;
+   }
+
+   button {
+      font-size: 24px;
+      border: none;
+      width: 275px;
+      background: none;
+      letter-spacing: 2px;
+      transition: all 1s;
+      cursor: pointer;
+
+      &:hover {
+         border-bottom: 2px solid;
+
+      }
+   }
+}
+
+main {
+
+   max-width: 1280px;
+   margin: auto;
+   padding-top: 50px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+
+   section {
+      display: flex;
+      justify-content: space-around;
+      gap: 30px;
+
+
+   }
+}
+
+ol {
+   li {
+      line-height: 2.5;
+   }
+}
+
+.section1 {
+   margin-top: 50px;
+}
+
+.title {
+   font-weight: 600px;
+   text-align: center;
+   margin: 20px 0;
+   letter-spacing: 5px;
+   font-size: 25px;
+}
+
+img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+hr {
+   width: 250px;
+   height: 2px;
+   background: #f6940e;
+   margin: 20px auto;
+   border: none;
+
+}
+
+a {
+   color: #f6940e;
+   letter-spacing: 2px;
+   text-decoration: none;
+}
+
+b {
+   color: red;
+}
+
+.section_scrath_3 {
+   .blok {
+      margin: 50px 0 0 0;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+      .suhom {
+
+         width: 400px;
+         margin-left: 40%;
+      }
+   }
+}
+
+i {
+   font-size: 12px;
+   text-align: right;
+}
+
+.duzain {
+   a {
+      color: #1f5386;
+   }
+
+   hr {
+      background: #1f5386;
+   }
+
+   ol {
+      margin-left: 10%;
+
+      li {
+         gap: 5px;
+
+         a {
+            color: black;
+            font-weight: bold;
+         }
+      }
+   }
+
+   section {
+      align-items: center;
+      flex-wrap: wrap;
+
+      img {
+         width: 20%;
+      }
+   }
+}
+
+.power_point {
+   hr {
+      background: #8e1622;
+   }
+
+   img {
+      width: 600px;
+   }
+
+   section {
+      padding-top: 60px;
+      font-size: 20px;
+
+      div {
+         display: flex;
+         flex-direction: column;
+         gap: 15px;
+
+         p {
+            img {
+               width: 15px;
+               height: 15px;
+               object-fit: cover;
+            }
+         }
+
+         .bold {
+            font-weight: bold;
+         }
+      }
+
+      ul {
+         margin-left: 40px;
+      }
+   }
+}
+
+
+
+
+footer {
+   margin-top: 50px;
+   padding: 25px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   box-shadow: 0px -3px 10px rgb(121, 121, 121);
+
+   div {
+      gap: 15px;
+   }
+}
